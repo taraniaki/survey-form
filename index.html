@@ -1,15 +1,56 @@
 <html>
+
 <head>
-<h1 id="title">Tell Me About Your Favourite Book </h1>
-   
- 
+    <h1 id="title">Tell Me About Your Favourite Book </h1>
+    <link href="css/survey.css" rel="stylesheet" type="text/css" />
+
 </head>
 
 <script type="text/javascript" src=" https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js">
 </script>
 
 <body>
-    freecodecamp project 
+
+
+    <p id="description"> In This survey you can let us know what kind of books you enjoy the most </p>
+    <form id="survey-form">
+
+        <label id="name-label">name</label>: <input type="text" name="name" id="name" required placeholder="First name">
+        <br>
+
+        <label id="email-label"> Email</label>: <input type="email" name="email" id="email" required
+            placeholder="Email"><br>
+        <label id="number-label"> Number</label>: <input type="number" name="number" id="number" min="0" max="150"
+            required placeholder="Age"><br>
+
+        <select name="books" id="dropdown">
+            <option value="technical-books">Technical Books</option>
+            <option value="Novels">Novels</option>
+            <option value="comic">Comic</option>
+            <option value="Science Fiction">Science Fiction</option>
+        </select><br>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">male</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br>
+
+        <input type="checkbox" id="coffee-shop" name="coffee-shop" value="coffee-shop">
+        <label for="coffee-shop"> I prefer to read at coffee shop</label><br>
+        <input type="checkbox" id="library" name="library" value="library">
+        <label for="library"> I prefer to read at library</label><br>
+        <input type="checkbox" id="home" name="home" value="home">
+        <label for="home"> I prefer to read at home</label><br>
+
+        <textarea id="textarea" name="textarea" rows="4" cols="50" placeholder="Additional comments">
+
+    </textarea>
+
+        <input type="submit" id="submit">
+    </form>
+
 </body>
 
 </html>

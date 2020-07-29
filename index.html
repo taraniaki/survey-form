@@ -1,8 +1,9 @@
+<!DOCTYPE html>
 <html>
 
 <head>
     <h1 id="title">Tell Me About Your Favourite Book </h1>
-    <link href="css/survey.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="/css/style.css" />
 
 </head>
 
@@ -12,43 +13,57 @@
 <body>
 
 
-    <p id="description"> In This survey you can let us know what kind of books you enjoy the most </p>
+    <p id="description"> <strong>In This survey you can let us know what kind of books you enjoy the most</strong> </p>
     <form id="survey-form">
 
-        <label id="name-label">name</label>: <input type="text" name="name" id="name" required placeholder="First name">
+        <label id="name-label">name:</label> <input type="text" name="name" id="name" required placeholder="First name">
         <br>
-
-        <label id="email-label"> Email</label>: <input type="email" name="email" id="email" required
+        <label id="email-label"> Email:</label><input type="email" name="email" id="email" required
             placeholder="Email"><br>
-        <label id="number-label"> Number</label>: <input type="number" name="number" id="number" min="0" max="150"
+        <label id="number-label"> Number:</label> <input type="number" name="number" id="number" min="0" max="150"
             required placeholder="Age"><br>
-
-        <select name="books" id="dropdown">
+        <br>
+        <p><strong>What kind of books do you like?</strong></p>
+        <select name="books" id="dropdown" class="dropdown">
             <option value="technical-books">Technical Books</option>
             <option value="Novels">Novels</option>
             <option value="comic">Comic</option>
             <option value="Science Fiction">Science Fiction</option>
         </select><br>
 
+
+
+
+
+        <div id="radio-button-area">
+        <br><p><strong>Gender</strong></p>
+        <label for="female">Female</label>
         <input type="radio" id="female" name="gender" value="female">
-        <label for="female">Female</label><br>
+        <label for="male">male</label>
         <input type="radio" id="male" name="gender" value="male">
-        <label for="male">male</label><br>
+        <label for="other">Other</label>
         <input type="radio" id="other" name="gender" value="other">
-        <label for="other">Other</label><br>
+    </div>
 
+         <div id="radio-button-2">
+        <p><strong>Where is your Favourite spot for reading?</strong> </p>
+        <label for="coffee-shop"> I prefer to read at coffee shop</label>
         <input type="checkbox" id="coffee-shop" name="coffee-shop" value="coffee-shop">
-        <label for="coffee-shop"> I prefer to read at coffee shop</label><br>
+        <label for="library"> I prefer to read at library</label>
         <input type="checkbox" id="library" name="library" value="library">
-        <label for="library"> I prefer to read at library</label><br>
-        <input type="checkbox" id="home" name="home" value="home">
-        <label for="home"> I prefer to read at home</label><br>
+        <label for="home"> I prefer to read at home</label>
+        <input type="checkbox" id="home" name="home" value="home"><br>
+    </div><br>
+        
+       
 
-        <textarea id="textarea" name="textarea" rows="4" cols="50" placeholder="Additional comments">
+    <label for="additional-comments"> additional comments:</label>
 
-    </textarea>
+    <textarea id="additional-comments" name="additional-comments" rows="4" cols="50">
+    </textarea><br>
 
-        <input type="submit" id="submit">
+    <input type="submit" id="submit">
+
     </form>
 
 </body>

@@ -1,0 +1,80 @@
+body {
+
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-left: 20%;
+    padding-right: 20%;
+    background-color:#c89666; 
+}
+
+h1 {
+    
+    color:  #1d363c ;
+}
+
+p {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    
+    
+}
+
+label {
+    font-size: 18px;
+    display: block;
+    padding-bottom: 10px;
+    color: #12343b;
+    
+}
+
+form {
+    background-color: #e1b382;
+    padding: 30px 50px 30px 50px;
+}
+p {
+    color: whitesmoke;
+    font-size: 20px;
+}
+
+ 
+#additional-comments {
+
+    color: black;
+    font-size: 18px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+#submit {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 16px;
+}
+
+input, textarea {
+    display: block;
+    width: 100%;
+    padding-bottom: 20px;
+
+}
+
+input.checkbox: {
+    display: inline-block;
+
+}
+.dropdown {
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: whitesmoke;
+
+
+
+
+
+
+
+
